@@ -165,6 +165,9 @@ header{
     max-width: 30%;
     text-align: center;
 }
+.features-card img{
+    width: 60px;
+}
 /* big feature section */
 .big-feature-section{
     padding: 30px var(--padding-inline-section) 0;
@@ -218,4 +221,44 @@ header{
 .examples-card:nth-child(4){
     background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(../assets/asset\ 37.jpeg);
     background-size: cover;
+}
+
+/* cta-section */
+.cta-container{
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.cta-section{
+    background-color: #183b54;
+    padding: 120px var(--padding-inline-section) 80px;
+}
+.cta-container p{
+    color: white;
+    margin-top: 20px;
+}
+
+/* footer */
+
+footer{
+    padding: 80px;
+    background-color: #ebf2fa;
+}
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+/* subfooter */
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);   
+}
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
 }
