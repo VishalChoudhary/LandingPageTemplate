@@ -102,6 +102,7 @@ ul{
 .main-nav{
     justify-content: space-between;
     margin-top: 20px;
+    position: relative;
 }
 .company-logo img{
     width: 200px;
@@ -169,7 +170,7 @@ header{
 .features-card{
     flex-direction: column;
     gap: 20px;
-    max-width: 37%;
+    max-width: 30%;
     text-align: center;
 }
 .features-card img{
@@ -246,7 +247,7 @@ header{
 }
 .cta-section{
     background-color: #183b54;
-    padding: 120px var(--padding-inline-section) 80px;
+    padding: 80px var(--padding-inline-section) 80px;
 }
 .cta-container p{
     color: white;
