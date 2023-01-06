@@ -51,3 +51,18 @@
         align-items: stretch;
     }
 }
+
+@media screen and (max-width: 479px) {
+    :root{
+        --padding-inline-section: 5px;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .features-card{
+        min-width: 100%;
+    }
+    .examples-card{
+        width: 100%;
+    }
+}
