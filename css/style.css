@@ -242,7 +242,7 @@ header{
 /* cta-section */
 .cta-container{
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     color: white;
 }
 .cta-section{
